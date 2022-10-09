@@ -23,4 +23,4 @@ Upload exploit.so to the victim machine then run: <br>
 `sudo openssl req -engine ./exploit.so` <br>
 (also worked with doas because I have tested it) <br>
 
-I have uploaded the exploit.so, so you can just run the above command without building it <br>
+I have uploaded the exploit.so, so you can just download it and run the above command without building it. <br>
